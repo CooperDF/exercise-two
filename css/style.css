@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    background-image: url(../images/old_notepaper_texture_by_polkapebble_d37nxw3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    position: relative;
+    text-align-last: justify;
+    font-size: 12px;
+    vertical-align: middle;
+    text-justify: inter-word;
+}
+
+.container{
+    position: relative;
+    display: block;
+    width: 60vw;
+    margin: auto;
+    padding: 10vh;
+    background-image: url(/images/baby%20shower%20book%20library%20themed%20party%20invitation%20template.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transform: rotateZ(10deg);
+    box-shadow: 3px 2px 17px -6px rgba(0,0,0,0.55);
+}
+
+.logo__h1{
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 48px;
+    color: #000080;
+    filter: opacity(0.5);
+    filter: blur(3);
+}
+
+.logo__a {
+    text-decoration-line: none;
+}
+
+.logo__a:any-link {
+    color: #000080;;
+}
+
+.filter__top, .filter__bottom {
+/*    transform: rotateZ(-10deg);*/
+    margin: 25px;
+}
+
+#custom-slider{
+    height: 35px;
+    min-width: 550px;
+    background-color: yellow;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    box-shadow:3px 2px 17px -5px rgba(0,0,0,0.55);
+    
+}
+
+.ui-widget-content {
+    background: none !important;
+}
+
+
+.story {
+    font-family: 'Reenie Beanie', cursive;
+    font-style: oblique;
+    align-items: center;
+    background: rgba(248, 231, 185, 0.45);
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px hidden #000000;
+    box-shadow: 20px 20px 20px 20px rgba(248, 231, 185, 0.5
+    );
+}
+
+.story__title {
+    font-size: 24px;
+}
+
+.story__para {
+    font-size: 24px;
+}
